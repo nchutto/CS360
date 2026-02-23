@@ -1,9 +1,9 @@
-📱 CS 360 – Mobile Application Development
+##CS 360 – Mobile Application Development
 Weight Tracker Android App
 
 Nicole Hutto
 
-📌 Overview
+##Overview
 
 This repository contains my final project for CS 360: Mobile Architecture and Programming.
 
@@ -11,7 +11,7 @@ I developed a Weight Tracker Android application using Kotlin and Jetpack Compos
 
 This project demonstrates my ability to design and implement a multi-screen Android application using modern development practices.
 
-🚀 Features
+## Features
 
 User Registration & Login
 
@@ -29,7 +29,7 @@ Navigation between multiple screens
 
 Runtime permission handling (if required)
 
-🛠️ Technologies
+## Technologies
 
 Kotlin
 
@@ -41,7 +41,7 @@ Navigation Component
 
 Android Studio
 
-🧠 Concepts Demonstrated
+## Concepts Demonstrated
 
 Multi-screen app architecture
 
@@ -57,13 +57,14 @@ Debugging with Logcat
 
 Iterative development and testing
 
-📂 Project Structure
+## Project Structure
 MainActivity.kt
 Navigation (Login, Register, Main Screens)
 WeightEntry Data Class
 Composable UI Screens
 Permission Handling Logic
-📈 Skills Gained
+
+## Skills Gained
 
 Through this project, I strengthened my skills in:
 
@@ -77,7 +78,7 @@ Debugging and troubleshooting
 
 Incremental feature implementation
 
-🔮 Future Improvements
+## Future Improvements
 
 Persistent storage with Room database
 
@@ -87,4 +88,3 @@ Improved UI polish and accessibility
 
 Backend/cloud integration
 
-👩‍💻 Author
