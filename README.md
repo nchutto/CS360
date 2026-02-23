@@ -1,30 +1,35 @@
- CS 360 – Mobile Application Development
+📱 CS 360 – Mobile Application Development
+Weight Tracker Android App
 
 Nicole Hutto
 
- Project Overview
+📌 Overview
 
-This repository contains my coursework and final project for CS 360: Mobile Architecture and Programming.
+This repository contains my final project for CS 360: Mobile Architecture and Programming.
 
-For this course, I developed a Weight Tracker Android Application using Kotlin and Jetpack Compose. The app allows users to:
+I developed a Weight Tracker Android application using Kotlin and Jetpack Compose. The app allows users to register, log in, and track weight entries with associated dates in a structured and user-friendly interface.
 
-Create an account
+This project demonstrates my ability to design and implement a multi-screen Android application using modern development practices.
 
-Log in securely
+🚀 Features
+
+User Registration & Login
+
+Secure password input
 
 Add weight entries
 
 Assign dates to entries
 
-Delete entries
+Delete entries dynamically
 
-View progress in a structured list format
+Real-time UI updates using Compose state
 
-Navigate between screens using Jetpack Navigation
+Navigation between multiple screens
 
-This project demonstrates my ability to design, develop, and troubleshoot a fully functional Android application from start to finish.
+Runtime permission handling (if required)
 
- Technologies Used
+🛠️ Technologies
 
 Kotlin
 
@@ -34,97 +39,52 @@ Material3
 
 Navigation Component
 
-Android Runtime Permissions
-
 Android Studio
 
-Key Concepts Demonstrated
+🧠 Concepts Demonstrated
 
 Multi-screen app architecture
 
-Navigation with NavController
+State management (remember, mutableStateOf)
 
-State management using remember and mutableStateOf
+Navigation using NavController
+
+LazyColumn dynamic lists
 
 User input validation
 
-Runtime permission handling
-
-UI design using composable functions
-
 Debugging with Logcat
 
- Application Features
- Authentication Screens
+Iterative development and testing
 
-Login screen
-
-Registration screen
-
-Password field security using PasswordVisualTransformation
-
- Weight Tracking
-
-Add weight entries
-
-Assign a date to each entry
-
-Display entries in a LazyColumn
-
-Delete entries dynamically
-
-Real-time state updates
-
- Permissions Handling
-
-SMS permission request (if applicable to assignment requirements)
-
-Runtime permission launcher integration
-
- Challenges & Solutions
-
-Throughout development, I encountered issues related to:
-
-Navigation route mismatches
-
-App crashes due to composable state errors
-
-Permission handling logic
-
-UI layout inconsistencies
-
-These were resolved by:
-
-Reviewing Logcat error messages
-
-Incremental feature testing
-
-Cleaning and rebuilding the project
-
-Refining composable structure
-
- Skills Gained
+📂 Project Structure
+MainActivity.kt
+Navigation (Login, Register, Main Screens)
+WeightEntry Data Class
+Composable UI Screens
+Permission Handling Logic
+📈 Skills Gained
 
 Through this project, I strengthened my skills in:
 
-Android app architecture
+Android application architecture
 
 Kotlin programming
 
-UI design with Compose
+UI development with Compose
 
 Debugging and troubleshooting
 
-Iterative development practices
+Incremental feature implementation
 
- Future Improvements
+🔮 Future Improvements
 
-If continuing development, I would:
+Persistent storage with Room database
 
-Implement a Room database for persistent storage
+Data visualization (charts/graphs)
 
-Add graphical progress visualization (charts)
+Improved UI polish and accessibility
 
-Improve UI polish and accessibility
+Backend/cloud integration
 
-Implement cloud-based account storage
+👩‍💻 Author
