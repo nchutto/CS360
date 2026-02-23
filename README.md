@@ -1,9 +1,9 @@
-##CS 360 – Mobile Application Development
+## CS 360 – Mobile Application Development
 Weight Tracker Android App
 
 Nicole Hutto
 
-##Overview
+## Overview
 
 This repository contains my final project for CS 360: Mobile Architecture and Programming.
 
